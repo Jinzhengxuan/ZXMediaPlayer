@@ -22,9 +22,9 @@ typedef void(^ZXAlertAction)(BOOL isConfirm);
 
 + (void)showWWANWarningWithAction:(nullable ZXAlertAction)action;
 
-+ (void)showWithTitle:(NSString *)title action:(nullable ZXAlertAction)action;
++ (void)showWithTitle:(nonnull NSString *)title action:(nullable ZXAlertAction)action;
 
-+ (void)showWithTitle:(NSString *)title;
++ (void)showWithTitle:(nonnull NSString *)title;
 
 + (void)showNetworkUnreachable;
 
