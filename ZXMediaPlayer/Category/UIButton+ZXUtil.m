@@ -18,7 +18,10 @@
 }
 
 - (void)setImageName:(NSString *)imageName forState:(UIControlState)state {
-    
+    UIImage *image = [UIImage imageNamed:imageName];
+    if (image) {
+        [self setImage:image forState:state];
+    }
 }
 
 @end

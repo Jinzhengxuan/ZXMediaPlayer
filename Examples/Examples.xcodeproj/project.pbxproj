@@ -13,23 +13,7 @@
 		A8161D88208D861100946D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8161D87208D861100946D48 /* Assets.xcassets */; };
 		A8161D8B208D861100946D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8161D89208D861100946D48 /* LaunchScreen.storyboard */; };
 		A8161D8E208D861100946D48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161D8D208D861100946D48 /* main.m */; };
-		A8161DAE208D8A5900946D48 /* ZXMediaInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161D99208D8A5900946D48 /* ZXMediaInfoModel.m */; };
-		A8161DAF208D8A5900946D48 /* ZXPlayMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161D9B208D8A5900946D48 /* ZXPlayMusicView.m */; };
-		A8161DB0208D8A5900946D48 /* ZXMediaControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161D9C208D8A5900946D48 /* ZXMediaControlModel.m */; };
-		A8161DB1208D8A5900946D48 /* ZXPlayMusicCricleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DA0208D8A5900946D48 /* ZXPlayMusicCricleSlider.m */; };
-		A8161DB2208D8A5900946D48 /* ZXMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DA1208D8A5900946D48 /* ZXMediaPlayer.m */; };
-		A8161DB3208D8A5900946D48 /* ZXVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DA2208D8A5900946D48 /* ZXVideoPlayView.m */; };
-		A8161DB4208D8A5900946D48 /* ZXDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DA5208D8A5900946D48 /* ZXDBUtil.m */; };
-		A8161DB5208D8A5900946D48 /* ZXPlayRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DA6208D8A5900946D48 /* ZXPlayRoundView.m */; };
-		A8161DB6208D8A5900946D48 /* ZXMediaPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DAB208D8A5900946D48 /* ZXMediaPlayManager.m */; };
-		A8161DB7208D8A5900946D48 /* ZXPlayMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DAC208D8A5900946D48 /* ZXPlayMusicController.m */; };
-		A8161DB8208D8A5900946D48 /* ZXMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DAD208D8A5900946D48 /* ZXMediaDownloader.m */; };
 		A8161DBB208DA13500946D48 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A8161DBA208DA13500946D48 /* libsqlite3.0.tbd */; };
-		A8161DC5208DACE100946D48 /* ZXGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DC3208DACE000946D48 /* ZXGCDTimer.m */; };
-		A8161DCD208DAD3300946D48 /* ZXGCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DC8208DAD3200946D48 /* ZXGCDGroup.m */; };
-		A8161DCE208DAD3300946D48 /* ZXGCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DC9208DAD3200946D48 /* ZXGCDQueue.m */; };
-		A8161DCF208DAD3300946D48 /* ZXGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DCA208DAD3200946D48 /* ZXGCDSemaphore.m */; };
-		A8161DD2208DAE8B00946D48 /* ZXShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DD1208DAE8B00946D48 /* ZXShowAlert.m */; };
 		A8161DD5208DB0F100946D48 /* UIView+ZXRect.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DD3208DB0F000946D48 /* UIView+ZXRect.m */; };
 		A8161DD8208DB37000946D48 /* ZXMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8161DD7208DB37000946D48 /* ZXMedia.xcassets */; };
 		A8161DDE208DB61400946D48 /* ZXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DDD208DB61400946D48 /* ZXUtils.m */; };
@@ -41,6 +25,22 @@
 		A8161DF9208DC97100946D48 /* ZXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DF8208DC97100946D48 /* ZXWebImage.m */; };
 		A8161DFC208DC99100946D48 /* UIImageView+ZXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DFA208DC99100946D48 /* UIImageView+ZXWebImage.m */; };
 		A8161DFF208DD4FB00946D48 /* UIImage+ZXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161DFE208DD4FB00946D48 /* UIImage+ZXUtil.m */; };
+		A8161E0E208DDC9C00946D48 /* ZXGCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E06208DDC9C00946D48 /* ZXGCDGroup.m */; };
+		A8161E0F208DDC9C00946D48 /* ZXGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E07208DDC9C00946D48 /* ZXGCDTimer.m */; };
+		A8161E10208DDC9C00946D48 /* ZXGCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E08208DDC9C00946D48 /* ZXGCDQueue.m */; };
+		A8161E11208DDC9C00946D48 /* ZXGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E09208DDC9C00946D48 /* ZXGCDSemaphore.m */; };
+		A8161E12208DDC9C00946D48 /* ZXShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E0D208DDC9C00946D48 /* ZXShowAlert.m */; };
+		A8161E1D208DDCF100946D48 /* ZXVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E14208DDCF100946D48 /* ZXVideoPlayView.m */; };
+		A8161E1E208DDCF100946D48 /* ZXPlayMusicCricleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E16208DDCF100946D48 /* ZXPlayMusicCricleSlider.m */; };
+		A8161E1F208DDCF100946D48 /* ZXPlayRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E19208DDCF100946D48 /* ZXPlayRoundView.m */; };
+		A8161E20208DDCF100946D48 /* ZXPlayMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E1B208DDCF100946D48 /* ZXPlayMusicController.m */; };
+		A8161E21208DDCF100946D48 /* ZXPlayMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E1C208DDCF100946D48 /* ZXPlayMusicView.m */; };
+		A8161E2C208DDCFD00946D48 /* ZXMediaPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E24208DDCFD00946D48 /* ZXMediaPlayManager.m */; };
+		A8161E2D208DDCFD00946D48 /* ZXMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E26208DDCFD00946D48 /* ZXMediaDownloader.m */; };
+		A8161E2E208DDCFD00946D48 /* ZXMediaControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E27208DDCFD00946D48 /* ZXMediaControlModel.m */; };
+		A8161E2F208DDCFD00946D48 /* ZXMediaInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E28208DDCFD00946D48 /* ZXMediaInfoModel.m */; };
+		A8161E30208DDCFD00946D48 /* ZXMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E2B208DDCFD00946D48 /* ZXMediaPlayer.m */; };
+		A8161E33208DDD1400946D48 /* ZXDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161E31208DDD1400946D48 /* ZXDBUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,41 +54,8 @@
 		A8161D8A208D861100946D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8161D8C208D861100946D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8161D8D208D861100946D48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8161D98208D8A5900946D48 /* ZXPlayRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayRoundView.h; sourceTree = "<group>"; };
-		A8161D99208D8A5900946D48 /* ZXMediaInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaInfoModel.m; sourceTree = "<group>"; };
-		A8161D9A208D8A5900946D48 /* ZXDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDBUtil.h; sourceTree = "<group>"; };
-		A8161D9B208D8A5900946D48 /* ZXPlayMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayMusicView.m; sourceTree = "<group>"; };
-		A8161D9C208D8A5900946D48 /* ZXMediaControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaControlModel.m; sourceTree = "<group>"; };
-		A8161D9D208D8A5900946D48 /* ZXMediaDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaDownloader.h; sourceTree = "<group>"; };
-		A8161D9E208D8A5900946D48 /* ZXPlayMusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayMusicController.h; sourceTree = "<group>"; };
-		A8161D9F208D8A5900946D48 /* ZXMediaPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaPlayManager.h; sourceTree = "<group>"; };
-		A8161DA0208D8A5900946D48 /* ZXPlayMusicCricleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayMusicCricleSlider.m; sourceTree = "<group>"; };
-		A8161DA1208D8A5900946D48 /* ZXMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaPlayer.m; sourceTree = "<group>"; };
-		A8161DA2208D8A5900946D48 /* ZXVideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXVideoPlayView.m; sourceTree = "<group>"; };
-		A8161DA3208D8A5900946D48 /* ZXPlayMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayMusicView.h; sourceTree = "<group>"; };
-		A8161DA4208D8A5900946D48 /* ZXMediaInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaInfoModel.h; sourceTree = "<group>"; };
-		A8161DA5208D8A5900946D48 /* ZXDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDBUtil.m; sourceTree = "<group>"; };
-		A8161DA6208D8A5900946D48 /* ZXPlayRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayRoundView.m; sourceTree = "<group>"; };
-		A8161DA7208D8A5900946D48 /* ZXMediaControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaControlModel.h; sourceTree = "<group>"; };
-		A8161DA8208D8A5900946D48 /* ZXVideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXVideoPlayView.h; sourceTree = "<group>"; };
-		A8161DA9208D8A5900946D48 /* ZXMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaPlayer.h; sourceTree = "<group>"; };
-		A8161DAA208D8A5900946D48 /* ZXPlayMusicCricleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayMusicCricleSlider.h; sourceTree = "<group>"; };
-		A8161DAB208D8A5900946D48 /* ZXMediaPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaPlayManager.m; sourceTree = "<group>"; };
-		A8161DAC208D8A5900946D48 /* ZXPlayMusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayMusicController.m; sourceTree = "<group>"; };
-		A8161DAD208D8A5900946D48 /* ZXMediaDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaDownloader.m; sourceTree = "<group>"; };
 		A8161DBA208DA13500946D48 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A8161DC1208DAAD400946D48 /* ZXConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXConfig.h; sourceTree = "<group>"; };
-		A8161DC3208DACE000946D48 /* ZXGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDTimer.m; sourceTree = "<group>"; };
-		A8161DC4208DACE000946D48 /* ZXGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDTimer.h; sourceTree = "<group>"; };
-		A8161DC6208DAD3200946D48 /* ZXGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCD.h; sourceTree = "<group>"; };
-		A8161DC7208DAD3200946D48 /* ZXGCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDSemaphore.h; sourceTree = "<group>"; };
-		A8161DC8208DAD3200946D48 /* ZXGCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDGroup.m; sourceTree = "<group>"; };
-		A8161DC9208DAD3200946D48 /* ZXGCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDQueue.m; sourceTree = "<group>"; };
-		A8161DCA208DAD3200946D48 /* ZXGCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDSemaphore.m; sourceTree = "<group>"; };
-		A8161DCB208DAD3200946D48 /* ZXGCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDGroup.h; sourceTree = "<group>"; };
-		A8161DCC208DAD3300946D48 /* ZXGCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDQueue.h; sourceTree = "<group>"; };
-		A8161DD0208DAE8B00946D48 /* ZXShowAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXShowAlert.h; sourceTree = "<group>"; };
-		A8161DD1208DAE8B00946D48 /* ZXShowAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXShowAlert.m; sourceTree = "<group>"; };
 		A8161DD3208DB0F000946D48 /* UIView+ZXRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXRect.m"; sourceTree = "<group>"; };
 		A8161DD4208DB0F100946D48 /* UIView+ZXRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXRect.h"; sourceTree = "<group>"; };
 		A8161DD7208DB37000946D48 /* ZXMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZXMedia.xcassets; sourceTree = "<group>"; };
@@ -110,6 +77,39 @@
 		A8161DFB208DC99100946D48 /* UIImageView+ZXWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZXWebImage.h"; sourceTree = "<group>"; };
 		A8161DFD208DD4FB00946D48 /* UIImage+ZXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZXUtil.h"; sourceTree = "<group>"; };
 		A8161DFE208DD4FB00946D48 /* UIImage+ZXUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZXUtil.m"; sourceTree = "<group>"; };
+		A8161E02208DDC9C00946D48 /* ZXGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDTimer.h; sourceTree = "<group>"; };
+		A8161E03208DDC9C00946D48 /* ZXGCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDGroup.h; sourceTree = "<group>"; };
+		A8161E04208DDC9C00946D48 /* ZXGCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDSemaphore.h; sourceTree = "<group>"; };
+		A8161E05208DDC9C00946D48 /* ZXGCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCDQueue.h; sourceTree = "<group>"; };
+		A8161E06208DDC9C00946D48 /* ZXGCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDGroup.m; sourceTree = "<group>"; };
+		A8161E07208DDC9C00946D48 /* ZXGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDTimer.m; sourceTree = "<group>"; };
+		A8161E08208DDC9C00946D48 /* ZXGCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDQueue.m; sourceTree = "<group>"; };
+		A8161E09208DDC9C00946D48 /* ZXGCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGCDSemaphore.m; sourceTree = "<group>"; };
+		A8161E0A208DDC9C00946D48 /* ZXGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGCD.h; sourceTree = "<group>"; };
+		A8161E0C208DDC9C00946D48 /* ZXShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShowAlert.h; sourceTree = "<group>"; };
+		A8161E0D208DDC9C00946D48 /* ZXShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShowAlert.m; sourceTree = "<group>"; };
+		A8161E13208DDCF100946D48 /* ZXPlayRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayRoundView.h; sourceTree = "<group>"; };
+		A8161E14208DDCF100946D48 /* ZXVideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXVideoPlayView.m; sourceTree = "<group>"; };
+		A8161E15208DDCF100946D48 /* ZXPlayMusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayMusicController.h; sourceTree = "<group>"; };
+		A8161E16208DDCF100946D48 /* ZXPlayMusicCricleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayMusicCricleSlider.m; sourceTree = "<group>"; };
+		A8161E17208DDCF100946D48 /* ZXPlayMusicCricleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayMusicCricleSlider.h; sourceTree = "<group>"; };
+		A8161E18208DDCF100946D48 /* ZXVideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXVideoPlayView.h; sourceTree = "<group>"; };
+		A8161E19208DDCF100946D48 /* ZXPlayRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayRoundView.m; sourceTree = "<group>"; };
+		A8161E1A208DDCF100946D48 /* ZXPlayMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPlayMusicView.h; sourceTree = "<group>"; };
+		A8161E1B208DDCF100946D48 /* ZXPlayMusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayMusicController.m; sourceTree = "<group>"; };
+		A8161E1C208DDCF100946D48 /* ZXPlayMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPlayMusicView.m; sourceTree = "<group>"; };
+		A8161E22208DDCFD00946D48 /* ZXMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaPlayer.h; sourceTree = "<group>"; };
+		A8161E23208DDCFD00946D48 /* ZXMediaPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaPlayManager.h; sourceTree = "<group>"; };
+		A8161E24208DDCFD00946D48 /* ZXMediaPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaPlayManager.m; sourceTree = "<group>"; };
+		A8161E25208DDCFD00946D48 /* ZXMediaInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaInfoModel.h; sourceTree = "<group>"; };
+		A8161E26208DDCFD00946D48 /* ZXMediaDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaDownloader.m; sourceTree = "<group>"; };
+		A8161E27208DDCFD00946D48 /* ZXMediaControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaControlModel.m; sourceTree = "<group>"; };
+		A8161E28208DDCFD00946D48 /* ZXMediaInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaInfoModel.m; sourceTree = "<group>"; };
+		A8161E29208DDCFD00946D48 /* ZXMediaControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaControlModel.h; sourceTree = "<group>"; };
+		A8161E2A208DDCFD00946D48 /* ZXMediaDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMediaDownloader.h; sourceTree = "<group>"; };
+		A8161E2B208DDCFD00946D48 /* ZXMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMediaPlayer.m; sourceTree = "<group>"; };
+		A8161E31208DDD1400946D48 /* ZXDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDBUtil.m; sourceTree = "<group>"; };
+		A8161E32208DDD1400946D48 /* ZXDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDBUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,32 +163,12 @@
 			children = (
 				A8161DBC208DAA7500946D48 /* Category */,
 				A8161DBD208DAA8A00946D48 /* Core */,
+				A8161E01208DDC9C00946D48 /* GCD */,
+				A8161E0B208DDC9C00946D48 /* Message */,
 				A8161DE5208DC0DA00946D48 /* Reachability */,
 				A8161DD6208DB35400946D48 /* Resource */,
 				A8161DC2208DACE000946D48 /* Utils */,
 				A8161DBF208DAA9D00946D48 /* View */,
-				A8161DA7208D8A5900946D48 /* ZXMediaControlModel.h */,
-				A8161D9C208D8A5900946D48 /* ZXMediaControlModel.m */,
-				A8161D9D208D8A5900946D48 /* ZXMediaDownloader.h */,
-				A8161DAD208D8A5900946D48 /* ZXMediaDownloader.m */,
-				A8161DA4208D8A5900946D48 /* ZXMediaInfoModel.h */,
-				A8161D99208D8A5900946D48 /* ZXMediaInfoModel.m */,
-				A8161DA9208D8A5900946D48 /* ZXMediaPlayer.h */,
-				A8161DA1208D8A5900946D48 /* ZXMediaPlayer.m */,
-				A8161D9A208D8A5900946D48 /* ZXDBUtil.h */,
-				A8161DA5208D8A5900946D48 /* ZXDBUtil.m */,
-				A8161D9F208D8A5900946D48 /* ZXMediaPlayManager.h */,
-				A8161DAB208D8A5900946D48 /* ZXMediaPlayManager.m */,
-				A8161D9E208D8A5900946D48 /* ZXPlayMusicController.h */,
-				A8161DAC208D8A5900946D48 /* ZXPlayMusicController.m */,
-				A8161DAA208D8A5900946D48 /* ZXPlayMusicCricleSlider.h */,
-				A8161DA0208D8A5900946D48 /* ZXPlayMusicCricleSlider.m */,
-				A8161DA3208D8A5900946D48 /* ZXPlayMusicView.h */,
-				A8161D9B208D8A5900946D48 /* ZXPlayMusicView.m */,
-				A8161D98208D8A5900946D48 /* ZXPlayRoundView.h */,
-				A8161DA6208D8A5900946D48 /* ZXPlayRoundView.m */,
-				A8161DA8208D8A5900946D48 /* ZXVideoPlayView.h */,
-				A8161DA2208D8A5900946D48 /* ZXVideoPlayView.m */,
 				A8161DF6208DC95800946D48 /* ZXWebImage */,
 			);
 			name = ZXMediaPlayer;
@@ -224,6 +204,16 @@
 			isa = PBXGroup;
 			children = (
 				A8161DC1208DAAD400946D48 /* ZXConfig.h */,
+				A8161E29208DDCFD00946D48 /* ZXMediaControlModel.h */,
+				A8161E27208DDCFD00946D48 /* ZXMediaControlModel.m */,
+				A8161E2A208DDCFD00946D48 /* ZXMediaDownloader.h */,
+				A8161E26208DDCFD00946D48 /* ZXMediaDownloader.m */,
+				A8161E25208DDCFD00946D48 /* ZXMediaInfoModel.h */,
+				A8161E28208DDCFD00946D48 /* ZXMediaInfoModel.m */,
+				A8161E22208DDCFD00946D48 /* ZXMediaPlayer.h */,
+				A8161E2B208DDCFD00946D48 /* ZXMediaPlayer.m */,
+				A8161E23208DDCFD00946D48 /* ZXMediaPlayManager.h */,
+				A8161E24208DDCFD00946D48 /* ZXMediaPlayManager.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -231,6 +221,16 @@
 		A8161DBF208DAA9D00946D48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A8161E15208DDCF100946D48 /* ZXPlayMusicController.h */,
+				A8161E1B208DDCF100946D48 /* ZXPlayMusicController.m */,
+				A8161E17208DDCF100946D48 /* ZXPlayMusicCricleSlider.h */,
+				A8161E16208DDCF100946D48 /* ZXPlayMusicCricleSlider.m */,
+				A8161E1A208DDCF100946D48 /* ZXPlayMusicView.h */,
+				A8161E1C208DDCF100946D48 /* ZXPlayMusicView.m */,
+				A8161E13208DDCF100946D48 /* ZXPlayRoundView.h */,
+				A8161E19208DDCF100946D48 /* ZXPlayRoundView.m */,
+				A8161E18208DDCF100946D48 /* ZXVideoPlayView.h */,
+				A8161E14208DDCF100946D48 /* ZXVideoPlayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,17 +238,8 @@
 		A8161DC2208DACE000946D48 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A8161DC6208DAD3200946D48 /* ZXGCD.h */,
-				A8161DCB208DAD3200946D48 /* ZXGCDGroup.h */,
-				A8161DC8208DAD3200946D48 /* ZXGCDGroup.m */,
-				A8161DCC208DAD3300946D48 /* ZXGCDQueue.h */,
-				A8161DC9208DAD3200946D48 /* ZXGCDQueue.m */,
-				A8161DC7208DAD3200946D48 /* ZXGCDSemaphore.h */,
-				A8161DCA208DAD3200946D48 /* ZXGCDSemaphore.m */,
-				A8161DC4208DACE000946D48 /* ZXGCDTimer.h */,
-				A8161DC3208DACE000946D48 /* ZXGCDTimer.m */,
-				A8161DD0208DAE8B00946D48 /* ZXShowAlert.h */,
-				A8161DD1208DAE8B00946D48 /* ZXShowAlert.m */,
+				A8161E32208DDD1400946D48 /* ZXDBUtil.h */,
+				A8161E31208DDD1400946D48 /* ZXDBUtil.m */,
 				A8161DDC208DB61400946D48 /* ZXUtils.h */,
 				A8161DDD208DB61400946D48 /* ZXUtils.m */,
 			);
@@ -283,6 +274,31 @@
 				A8161DF8208DC97100946D48 /* ZXWebImage.m */,
 			);
 			path = ZXWebImage;
+			sourceTree = "<group>";
+		};
+		A8161E01208DDC9C00946D48 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A8161E0A208DDC9C00946D48 /* ZXGCD.h */,
+				A8161E03208DDC9C00946D48 /* ZXGCDGroup.h */,
+				A8161E06208DDC9C00946D48 /* ZXGCDGroup.m */,
+				A8161E05208DDC9C00946D48 /* ZXGCDQueue.h */,
+				A8161E08208DDC9C00946D48 /* ZXGCDQueue.m */,
+				A8161E04208DDC9C00946D48 /* ZXGCDSemaphore.h */,
+				A8161E09208DDC9C00946D48 /* ZXGCDSemaphore.m */,
+				A8161E02208DDC9C00946D48 /* ZXGCDTimer.h */,
+				A8161E07208DDC9C00946D48 /* ZXGCDTimer.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		A8161E0B208DDC9C00946D48 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				A8161E0C208DDC9C00946D48 /* ZXShowAlert.h */,
+				A8161E0D208DDC9C00946D48 /* ZXShowAlert.m */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,35 +372,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8161DAE208D8A5900946D48 /* ZXMediaInfoModel.m in Sources */,
-				A8161DB3208D8A5900946D48 /* ZXVideoPlayView.m in Sources */,
 				A8161DF9208DC97100946D48 /* ZXWebImage.m in Sources */,
-				A8161DB2208D8A5900946D48 /* ZXMediaPlayer.m in Sources */,
-				A8161DAF208D8A5900946D48 /* ZXPlayMusicView.m in Sources */,
+				A8161E20208DDCF100946D48 /* ZXPlayMusicController.m in Sources */,
 				A8161DE8208DC0DA00946D48 /* Reachability.m in Sources */,
+				A8161E1E208DDCF100946D48 /* ZXPlayMusicCricleSlider.m in Sources */,
 				A8161DE4208DBB9400946D48 /* UILabel+ZXUtil.m in Sources */,
-				A8161DB0208D8A5900946D48 /* ZXMediaControlModel.m in Sources */,
-				A8161DB5208D8A5900946D48 /* ZXPlayRoundView.m in Sources */,
 				A8161DDE208DB61400946D48 /* ZXUtils.m in Sources */,
+				A8161E10208DDC9C00946D48 /* ZXGCDQueue.m in Sources */,
+				A8161E2D208DDCFD00946D48 /* ZXMediaDownloader.m in Sources */,
 				A8161DEB208DC0F500946D48 /* ZXReachAbility.m in Sources */,
-				A8161DC5208DACE100946D48 /* ZXGCDTimer.m in Sources */,
-				A8161DB6208D8A5900946D48 /* ZXMediaPlayManager.m in Sources */,
-				A8161DB8208D8A5900946D48 /* ZXMediaDownloader.m in Sources */,
-				A8161DB1208D8A5900946D48 /* ZXPlayMusicCricleSlider.m in Sources */,
+				A8161E30208DDCFD00946D48 /* ZXMediaPlayer.m in Sources */,
+				A8161E33208DDD1400946D48 /* ZXDBUtil.m in Sources */,
+				A8161E0F208DDC9C00946D48 /* ZXGCDTimer.m in Sources */,
 				A8161D83208D861100946D48 /* ViewController.m in Sources */,
+				A8161E1F208DDCF100946D48 /* ZXPlayRoundView.m in Sources */,
 				A8161DE1208DBAFD00946D48 /* UIButton+ZXUtil.m in Sources */,
-				A8161DD2208DAE8B00946D48 /* ZXShowAlert.m in Sources */,
-				A8161DCF208DAD3300946D48 /* ZXGCDSemaphore.m in Sources */,
-				A8161DCE208DAD3300946D48 /* ZXGCDQueue.m in Sources */,
 				A8161D8E208D861100946D48 /* main.m in Sources */,
-				A8161DCD208DAD3300946D48 /* ZXGCDGroup.m in Sources */,
 				A8161D80208D861100946D48 /* AppDelegate.m in Sources */,
-				A8161DB4208D8A5900946D48 /* ZXDBUtil.m in Sources */,
+				A8161E12208DDC9C00946D48 /* ZXShowAlert.m in Sources */,
+				A8161E2E208DDCFD00946D48 /* ZXMediaControlModel.m in Sources */,
+				A8161E21208DDCF100946D48 /* ZXPlayMusicView.m in Sources */,
 				A8161DFF208DD4FB00946D48 /* UIImage+ZXUtil.m in Sources */,
 				A8161DEE208DC6B700946D48 /* NSString+ZXUtil.m in Sources */,
+				A8161E2C208DDCFD00946D48 /* ZXMediaPlayManager.m in Sources */,
+				A8161E1D208DDCF100946D48 /* ZXVideoPlayView.m in Sources */,
+				A8161E11208DDC9C00946D48 /* ZXGCDSemaphore.m in Sources */,
+				A8161E2F208DDCFD00946D48 /* ZXMediaInfoModel.m in Sources */,
 				A8161DFC208DC99100946D48 /* UIImageView+ZXWebImage.m in Sources */,
 				A8161DD5208DB0F100946D48 /* UIView+ZXRect.m in Sources */,
-				A8161DB7208D8A5900946D48 /* ZXPlayMusicController.m in Sources */,
+				A8161E0E208DDC9C00946D48 /* ZXGCDGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
