@@ -7,6 +7,7 @@
 //
 
 #import "ZXWebImage.h"
+#import "ZXWebImageDBUtil.h"
 
 @implementation ZXWebImage
 
@@ -19,8 +20,30 @@
     return instance;
 }
 
-- (void)downloadImageWithURL:(NSURL *)url progress:(ZXWebImageProgress)progress complete:(ZXWebImageComplete)complete {
+- (BOOL)isCacheExistedWithURLString:(NSString *)urlString {
+    BOOL isFound = NO;
     
+    return isFound;
+}
+
+- (void)downloadImageWithURL:(NSURL *)url progress:(ZXWebImageProgress)progress complete:(ZXWebImageComplete)complete {
+    if ([self isCacheExistedWithURLString:url.absoluteString]) {
+        NSURL *fileURL = [self filePathWithURLString:url.absoluteString];
+        if ([NSFileManager.defaultManager fileExistsAtPath:fileURL.absoluteString]) {
+            return;
+        }
+    }
+    [self createWebImageDownloadTaskWithURL:url progress:progress complete:complete];
+}
+
+- (void)createWebImageDownloadTaskWithURL:(NSURL *)url progress:(ZXWebImageProgress)progress complete:(ZXWebImageComplete)complete {
+    
+}
+
+- (NSURL *)filePathWithURLString:(NSString *)urlString {
+    NSString *cacheName = [ZXWebImageDBUtil queryRecordWithURL:urlString];
+    NSString *cachePath = [NSString stringWithFormat:@"%@%@", [ZXWebImageDBUtil cacheDirectory], cacheName];
+    return [NSURL URLWithString:cachePath];
 }
 
 @end

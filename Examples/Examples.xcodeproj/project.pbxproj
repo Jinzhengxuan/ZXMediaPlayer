@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A81333D7208E33F30038907D /* ZXWebImageDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A81333D6208E33F30038907D /* ZXWebImageDBUtil.m */; };
+		A81333DA208E36AB0038907D /* ZXWebImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A81333D9208E36AB0038907D /* ZXWebImageDownloadTask.m */; };
 		A8161D80208D861100946D48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161D7F208D861100946D48 /* AppDelegate.m */; };
 		A8161D83208D861100946D48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8161D82208D861100946D48 /* ViewController.m */; };
 		A8161D86208D861100946D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8161D84208D861100946D48 /* Main.storyboard */; };
@@ -44,6 +46,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A81333D5208E33F30038907D /* ZXWebImageDBUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWebImageDBUtil.h; sourceTree = "<group>"; };
+		A81333D6208E33F30038907D /* ZXWebImageDBUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWebImageDBUtil.m; sourceTree = "<group>"; };
+		A81333D8208E36AB0038907D /* ZXWebImageDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWebImageDownloadTask.h; sourceTree = "<group>"; };
+		A81333D9208E36AB0038907D /* ZXWebImageDownloadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWebImageDownloadTask.m; sourceTree = "<group>"; };
 		A8161D7B208D861000946D48 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8161D7E208D861100946D48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8161D7F208D861100946D48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -272,6 +278,10 @@
 				A8161DFA208DC99100946D48 /* UIImageView+ZXWebImage.m */,
 				A8161DF7208DC97100946D48 /* ZXWebImage.h */,
 				A8161DF8208DC97100946D48 /* ZXWebImage.m */,
+				A81333D5208E33F30038907D /* ZXWebImageDBUtil.h */,
+				A81333D6208E33F30038907D /* ZXWebImageDBUtil.m */,
+				A81333D8208E36AB0038907D /* ZXWebImageDownloadTask.h */,
+				A81333D9208E36AB0038907D /* ZXWebImageDownloadTask.m */,
 			);
 			path = ZXWebImage;
 			sourceTree = "<group>";
@@ -376,12 +386,14 @@
 				A8161E20208DDCF100946D48 /* ZXPlayMusicController.m in Sources */,
 				A8161DE8208DC0DA00946D48 /* Reachability.m in Sources */,
 				A8161E1E208DDCF100946D48 /* ZXPlayMusicCricleSlider.m in Sources */,
+				A81333D7208E33F30038907D /* ZXWebImageDBUtil.m in Sources */,
 				A8161DE4208DBB9400946D48 /* UILabel+ZXUtil.m in Sources */,
 				A8161DDE208DB61400946D48 /* ZXUtils.m in Sources */,
 				A8161E10208DDC9C00946D48 /* ZXGCDQueue.m in Sources */,
 				A8161E2D208DDCFD00946D48 /* ZXMediaDownloader.m in Sources */,
 				A8161DEB208DC0F500946D48 /* ZXReachAbility.m in Sources */,
 				A8161E30208DDCFD00946D48 /* ZXMediaPlayer.m in Sources */,
+				A81333DA208E36AB0038907D /* ZXWebImageDownloadTask.m in Sources */,
 				A8161E33208DDD1400946D48 /* ZXDBUtil.m in Sources */,
 				A8161E0F208DDC9C00946D48 /* ZXGCDTimer.m in Sources */,
 				A8161D83208D861100946D48 /* ViewController.m in Sources */,

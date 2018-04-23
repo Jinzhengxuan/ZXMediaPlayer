@@ -10,27 +10,27 @@
 
 @implementation UIImageView (ZXWebImage)
 
-- (void)showImageWithURLString:(NSString *)urlString {
+- (void)zx_showImageWithURLString:(NSString *)urlString {
     
 }
 
-- (void)showImageWithURLString:(NSString *)urlString complete:(Complete)complete {
+- (void)zx_showImageWithURLString:(NSString *)urlString complete:(Complete)complete {
     
 }
 
-- (void)showImageWithURLString:(NSString *)urlString progress:(Progress)progress complete:(Complete)complete {
+- (void)zx_showImageWithURLString:(NSString *)urlString progress:(Progress)progress complete:(Complete)complete {
     
 }
 
-- (void)showImageWithURL:(NSURL *)url {
+- (void)zx_showImageWithURL:(NSURL *)url {
     
 }
 
-- (void)showImageWithURL:(NSURL *)url complete:(Complete)complete {
+- (void)zx_showImageWithURL:(NSURL *)url complete:(Complete)complete {
     
 }
 
-- (void)showImageWithURL:(NSURL *)url progress:(Progress)progress complete:(Complete)complete {
+- (void)zx_showImageWithURL:(NSURL *)url progress:(Progress)progress complete:(Complete)complete {
     
 }
 

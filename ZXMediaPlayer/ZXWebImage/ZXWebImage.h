@@ -19,6 +19,8 @@ typedef void(^ZXWebImageComplete)(UIImage *image, NSURL *url, NSError *error);
 
 + (instancetype)shared;
 
+- (BOOL)isCacheExistedWithURLString:(NSString *)urlString;
+
 - (void)downloadImageWithURL:(NSURL *)url progress:(ZXWebImageProgress)progress complete:(ZXWebImageComplete)complete;
 
 @end

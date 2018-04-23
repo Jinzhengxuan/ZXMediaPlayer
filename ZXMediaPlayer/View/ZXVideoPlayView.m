@@ -111,7 +111,7 @@
     [self.controlBarShowingTimer start];
     
     if (self.imageURL) {
-        [self.backGroundImgView showImageWithURL:self.imageURL];
+        [self.backGroundImgView zx_showImageWithURL:self.imageURL];
     }
 }
 
