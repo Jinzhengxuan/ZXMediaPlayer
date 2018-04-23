@@ -473,7 +473,7 @@ typedef NS_ENUM(NSInteger, ZXPlayTimerModeEnum) {
 - (BOOL)prepareToPlay:(BOOL)isPlaying {
     self.isUserWantPlayOrPause = isPlaying;
     if (!self.musicList || self.musicList.count == 0 || self.musicList.count <= self.startIndex) {
-        [ZXShowAlert showVithTitle:@"缓冲中，请稍候"];
+        [ZXShowAlert showWithTitle:@"缓冲中，请稍候"];
         return NO;
     }
     ZXMediaInfoModel *model = self.musicList[self.currentIndex];
@@ -703,19 +703,19 @@ typedef NS_ENUM(NSInteger, ZXPlayTimerModeEnum) {
             if (self.sequenceMode == ZXPlaySequenceModeEnum_Order) {
                 self.sequenceMode = ZXPlaySequenceModeEnum_Random;
                 imgName = @"mm_bt_suijibofang";
-                [ZXShowAlert showVithTitle:@"随机播放"];
+                [ZXShowAlert showWithTitle:@"随机播放"];
                 self.controlModel.playMode = ZXMediaPlayMode_Random;
                 [ZXMediaPlayManager.sharedInstance setPlayMode:ZXMediaPlayMode_Random];
             } else if (self.sequenceMode == ZXPlaySequenceModeEnum_Random) {
                 self.sequenceMode = ZXPlaySequenceModeEnum_SingleCircle;
                 imgName = @"mm_bt_danquxunhuan";
-                [ZXShowAlert showVithTitle:@"单曲循环"];
+                [ZXShowAlert showWithTitle:@"单曲循环"];
                 self.controlModel.playMode = ZXMediaPlayMode_SingleCircle;
                 [ZXMediaPlayManager.sharedInstance setPlayMode:ZXMediaPlayMode_SingleCircle];
             } else if (self.sequenceMode == ZXPlaySequenceModeEnum_SingleCircle) {
                 self.sequenceMode = ZXPlaySequenceModeEnum_Order;
                 imgName = @"mm_bt_xunhuanbofang";
-                [ZXShowAlert showVithTitle:@"顺序播放"];
+                [ZXShowAlert showWithTitle:@"顺序播放"];
                 self.controlModel.playMode = ZXMediaPlayMode_Order;
                 [ZXMediaPlayManager.sharedInstance setPlayMode:ZXMediaPlayMode_Order];
             } else {
@@ -734,22 +734,22 @@ typedef NS_ENUM(NSInteger, ZXPlayTimerModeEnum) {
                 self.timerMode = ZXPlayTimerModeEnum_15Mins;
                 imgName = @"mm_15";
                 self.timerMinutes = 15;
-                [ZXShowAlert showVithTitle:@"15分钟后停止"];
+                [ZXShowAlert showWithTitle:@"15分钟后停止"];
             } else if (self.timerMode == ZXPlayTimerModeEnum_15Mins) {
                 self.timerMode = ZXPlayTimerModeEnum_30Mins;
                 imgName = @"mm_30";
                 self.timerMinutes = 30;
-                [ZXShowAlert showVithTitle:@"30分钟后停止"];
+                [ZXShowAlert showWithTitle:@"30分钟后停止"];
             } else if (self.timerMode == ZXPlayTimerModeEnum_30Mins) {
                 self.timerMode = ZXPlayTimerModeEnum_90Mins;
                 imgName = @"mm_90";
                 self.timerMinutes = 90;
-                [ZXShowAlert showVithTitle:@"90分钟后停止"];
+                [ZXShowAlert showWithTitle:@"90分钟后停止"];
             } else if (self.timerMode == ZXPlayTimerModeEnum_90Mins) {
                 self.timerMode = ZXPlayTimerModeEnum_None;
                 imgName = @"mm_bt_dingshi";
                 self.timerMinutes = 0;
-                [ZXShowAlert showVithTitle:@"定时关闭"];
+                [ZXShowAlert showWithTitle:@"定时关闭"];
             } else {
                 NSLog(@"没理由打印该日志");
             }
@@ -785,7 +785,7 @@ typedef NS_ENUM(NSInteger, ZXPlayTimerModeEnum) {
                 counter++;
             }
             if (counter >= strong_self.timerMinutes && !strong_self.isTimerStoped) {
-                [ZXShowAlert showVithTitle:@"时间到了"];
+                [ZXShowAlert showWithTitle:@"时间到了"];
                 ZXMediaInfoModel *model = strong_self.musicList[strong_self.currentIndex];
                 [ZXMediaPlayManager.sharedInstance pauseWithURL:model.mediaURL];
                 strong_self.isTimerStoped = YES;

@@ -16,32 +16,47 @@
     ZXShowAlert *alert = [[ZXShowAlert alloc]init];
     alert.title = kGlobalAlertWhenDownloadByWWANString;
     alert.action = action;
-    [alert show];
+    if (action) {
+        [alert showAlert];
+    } else {
+        [alert showMessage];
+    }
 }
 
-+ (void)showVithTitle:(NSString *)title action:(ZXAlertAction)action {
++ (void)showWithTitle:(NSString *)title action:(ZXAlertAction)action {
     ZXShowAlert *alert = [[ZXShowAlert alloc]init];
     alert.title = title;
     alert.action = action;
-    [alert show];
+    if (action) {
+        [alert showAlert];
+    } else {
+        [alert showMessage];
+    }
 }
 
-+ (void)showVithTitle:(NSString *)title {
++ (void)showWithTitle:(NSString *)title {
     ZXShowAlert *alert = [[ZXShowAlert alloc]init];
     alert.title = title;
     alert.action = nil;
-    [alert show];
+    [alert showMessage];
 }
 
 + (void)showNetworkUnreachable {
-    
+    ZXShowAlert *alert = [[ZXShowAlert alloc]init];
+    alert.title = kGlobalNetworkUnreachable;
+    alert.action = nil;
+    [alert showMessage];
 }
 
 + (void)dismiss {
     
 }
 
-- (void)show {
+- (void)showAlert {
+    
+}
+
+- (void)showMessage {
     
 }
 
