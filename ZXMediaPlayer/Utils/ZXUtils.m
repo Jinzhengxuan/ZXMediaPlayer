@@ -30,4 +30,19 @@
     return dateString;
 }
 
++ (UIViewController *)currentViewController {
+    id rootViewController = UIApplication.sharedApplication.delegate.window.rootViewController;
+    if ([rootViewController isKindOfClass:[UIViewController class]]) {
+        return (UIViewController *)rootViewController;
+    } else if ([rootViewController isKindOfClass:[UITabBarController class]]) {
+        UINavigationController *nav = (UINavigationController *)[(UITabBarController *)rootViewController selectedViewController];
+        return nav.topViewController;
+    } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
+        UINavigationController *nav = (UINavigationController *)rootViewController;
+        return nav.topViewController;
+    } else {
+        return nil;
+    }
+}
+
 @end

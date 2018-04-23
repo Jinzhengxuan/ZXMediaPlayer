@@ -43,5 +43,6 @@
 //全局3/4G缓存确认弹出框
 #define kGlobalAlertWhenDownloadByWWANResult @"kGlobalAlertWhenDownloadByWWANResult"
 #define kGlobalAlertWhenDownloadByWWANString @"当前网络无Wi-Fi，继续下载可能会被运营商收取流量费用"
+#define kGlobalAlertNetworkUnreachable @"网络连接异常，请检查您的设置"
 
 #endif /* ZXConfig_h */

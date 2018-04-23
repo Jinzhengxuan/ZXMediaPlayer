@@ -41,7 +41,7 @@
     
     if (!self.musicList || self.musicList.count == 0) {
         WEAKIFY_SELF
-        [ZXShowAlert showVithTitle:@"参数错误【音乐列表为空】" action:^(BOOL isConfirm) {
+        [ZXShowAlert showWithTitle:@"参数错误【音乐列表为空】" action:^(BOOL isConfirm) {
             if (isConfirm) {
                 STRONGIFY_SELF
                 [strong_self.navigationController popViewControllerAnimated:YES];

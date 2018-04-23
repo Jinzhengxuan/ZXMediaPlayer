@@ -20,11 +20,11 @@ typedef void(^ZXAlertAction)(BOOL isConfirm);
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) ZXAlertAction action;
 
-+ (void)showWWANWarningWithAction:(ZXAlertAction)action;
++ (void)showWWANWarningWithAction:(nullable ZXAlertAction)action;
 
-+ (void)showVithTitle:(NSString *)title action:(ZXAlertAction)action;
++ (void)showWithTitle:(NSString *)title action:(nullable ZXAlertAction)action;
 
-+ (void)showVithTitle:(NSString *)title;
++ (void)showWithTitle:(NSString *)title;
 
 + (void)showNetworkUnreachable;
 

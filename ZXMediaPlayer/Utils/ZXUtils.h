@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ZXUtils : NSObject
 
 + (NSString *)stringBySeconds:(NSInteger)s;
+
++ (UIViewController *)currentViewController;
 
 @end
