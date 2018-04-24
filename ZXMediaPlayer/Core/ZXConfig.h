@@ -45,4 +45,12 @@
 #define kGlobalAlertWhenDownloadByWWANString @"当前网络无Wi-Fi，继续下载可能会被运营商收取流量费用"
 #define kGlobalAlertNetworkUnreachable @"网络连接异常，请检查您的设置"
 
+//保证主线程执行block
+#define dispatch_main_sync_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_sync(dispatch_get_main_queue(), block);\
+}
+
 #endif /* ZXConfig_h */
